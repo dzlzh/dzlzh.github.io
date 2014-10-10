@@ -188,4 +188,9 @@ $(document).ready(function(){
             $(this).next('ul').toggle();
             });
         });
+        $('body').delegate('li','click',function(e){
+            e.preventDefault();
+            $(this).next('ul').toggle();
+            });
+        });
 </script>
