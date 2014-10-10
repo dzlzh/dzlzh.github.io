@@ -17,9 +17,14 @@ layout: nil
    {% for post in site.posts limit:10 %}
    <entry>
      <title>{{ post.title }}</title>
+<<<<<<< HEAD
      <link href="http://duanzhieli.tk{{ post.url }}"/>
      <updated>{{ post.date | date_to_xmlschema }}</updated>
-     <id>http://beiyuu.com{{ post.id }}</id>
+     <id>http://duanzhieli.tk{{ post.id }}</id>
+=======
+     <updated>{{ post.date | date_to_xmlschema }}</updated>
+     <id>http://duanzhilei.tk{{ post.id }}</id>
+>>>>>>> 31a8337c699c03525e24a7e4aab2294f17a5d6dd
      <content type="html">{{ post.content | xml_escape }}</content>
    </entry>
    {% endfor %}
