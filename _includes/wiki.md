@@ -3,15 +3,26 @@
     <h2>Programming</h2>
     <ul class="hide">
 
-- [PHP](/D-ZL/D_ZL/wiki/PHP)
- - [PHP手册](http://php.net/manual/zh/)
- - [PHP编码标准](http://framework.zend.com/manual/1.12/zh/coding-standard.coding-style.html)
-- [HTML/CSS]() & [HTML5](/D-ZL/D_ZL/wiki/HTML5)
-- [javascript](/D-ZL/D_ZL/wiki/javascript) & [jQuery]()
-- [C#]()
-- [.net]()
-- [C++]()
-- [C]()
+<ul class="hide">
+<li>
+<a href="/D-ZL/D_ZL/wiki/PHP">PHP</a>
+
+<ul class="hide">
+<li><a href="http://php.net/manual/zh/">PHP手册</a></li>
+<li><a href="http://framework.zend.com/manual/1.12/zh/coding-standard.coding-style.html">PHP编码标准</a></li>
+</ul>
+</li>
+<li>
+<a href="wiki/">HTML/CSS</a> & <a href="/D-ZL/D_ZL/wiki/HTML5">HTML5</a>
+</li>
+<li>
+<a href="/D-ZL/D_ZL/wiki/javascript">javascript</a> & <a href="wiki/">jQuery</a>
+</li>
+<li><a href="wiki/">C#</a></li>
+<li><a href="wiki/">.net</a></li>
+<li><a href="wiki/">C++</a></li>
+<li><a href="wiki/">C</a></li>
+</ul>
  
     </ul>
 
