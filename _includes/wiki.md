@@ -24,11 +24,10 @@
 
 <h2>操作系统</h2>
 <ul class="hide">
-<li><a href="https://github.com/D-ZL/D_ZL/wiki/Linux">Linux</a>
-<ul >
+<li>Linux</li>
+<ul class="hide">
 <li><a href="http://linux.chinaunix.net/">Linux时代</a></li>
 </ul>
-</li>
 </ul>
 
 <h2>开发工具</h2>
