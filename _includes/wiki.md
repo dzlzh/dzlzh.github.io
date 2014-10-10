@@ -24,16 +24,17 @@
 
 <h2>操作系统</h2>
 <ul class="hide">
-<li><h3>Linux</h3></li>
-<ul class="hide">
+<li>Linux
+<ul >
 <li><a href="http://linux.chinaunix.net/">Linux时代</a></li>
 </ul>
+</li>
 </ul>
 
 <h2>开发工具</h2>
 <ul class="hide">
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F">版本控制系统</a>
+版本控制系统
 
 <ul>
 <li><a href="http://tortoisesvn.net/">TortoiseSVN</a></li>
@@ -48,7 +49,7 @@
 </ul>
 </li>
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E4%BB%A3%E7%A0%81%E6%89%98%E7%AE%A1%E5%B9%B3%E5%8F%B0">代码托管平台</a>
+代码托管平台
 
 <ul >
 <li><a href="https://coding.net/home.html">coding让开发更简单</a></li>
@@ -61,7 +62,7 @@
 </ul>
 </li>
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8">云服务器</a>
+云服务器
 
 <ul>
 <li><a href="http://www.qcloud.com/">腾讯云</a></li>
@@ -76,7 +77,7 @@
 </ul>
 </li>
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E7%BC%96%E8%BE%91%E5%99%A8(IDE-Editor)">编辑器(IDE/Editor)</a>
+编辑器(IDE/Editor)
 
 <ul>
 <li>
@@ -92,7 +93,7 @@
 </ul>
 </li>
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E8%BE%85%E5%8A%A9%E5%B7%A5%E5%85%B7">辅助工具</a>
+辅助工具
 
 <ul>
 <li><a href="http://www.miaodeli.com/lambda/">λ-VIEW</a></li>
@@ -113,7 +114,7 @@
 
 <ul class="hide">
 <li>
-<a >社区论坛</a>
+社区论坛
 
 <ul >
 <li><a href="http://www.phpchina.com/">PHPChina开源社区门户</a></li>
@@ -123,8 +124,7 @@
 <li><a href="http://www.freebuf.com/">黑客与极客</a></li>
 </ul>
 </li>
-<li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E5%9F%9F%E5%90%8D%E6%B3%A8%E5%86%8C">域名注册</a>
+<li>域名注册
 
 <ul >
 <li><a href="http://www.dot.tk/zh/index.html">TK域名</a></li>
@@ -134,7 +134,7 @@
 </ul>
 </li>
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/%E8%BE%85%E5%8A%A9%E7%BD%91%E7%AB%99">辅助网站</a>
+辅助网站
 
 <ul >
 <li><a href="https://en.gravatar.com/">全国通用头像</a></li>
@@ -148,7 +148,7 @@
 </ul>
 </li>
 <li>
-<a href="https://github.com/D-ZL/D_ZL/wiki/VPN">VPN</a>
+VPN
 
 <ul >
 <li><a href="http://www.qjvpn.net/">旗舰VPN</a></li>
@@ -156,7 +156,7 @@
 </ul>
 </li>
 <li>
-<a >Blog</a>
+Blog
 
 <ul >
 <li><a href="http://hotoo.me/">闲耘&trade;</a></li>
@@ -187,10 +187,5 @@ $(document).ready(function(){
             e.preventDefault();
             $(this).next('ul').toggle();
             });
-        $('body').delegate('li','click',function(u){
-            u.preventDefault();
-            $(this).next('ul').toggle();
-            });
         });
-   
 </script>
