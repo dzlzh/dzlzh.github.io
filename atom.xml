@@ -17,13 +17,8 @@ layout: nil
    {% for post in site.posts limit:10 %}
    <entry>
      <title>{{ post.title }}</title>
-<<<<<<< HEAD
-     <link href="http://d-zl.github.io{{ post.url }}"/>
-=======
-     <link href="http://d-zl.github.io{{ post.url }}"/>
->>>>>>> df9a1b3eafe3d0288ba739292cbfa8288ffa2d7e
      <updated>{{ post.date | date_to_xmlschema }}</updated>
-     <id>http://d-zl.github.io{{ post.id }}</id>
+     <id>http://duanzhilei.tk{{ post.id }}</id>
      <content type="html">{{ post.content | xml_escape }}</content>
    </entry>
    {% endfor %}
