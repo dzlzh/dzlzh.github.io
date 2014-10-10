@@ -24,7 +24,7 @@
 
 <h2>操作系统</h2>
 <ul class="hide">
-<li>Linux</li>
+<li><h3>Linux</h3></li>
 <ul class="hide">
 <li><a href="http://linux.chinaunix.net/">Linux时代</a></li>
 </ul>
@@ -187,7 +187,7 @@ $(document).ready(function(){
             e.preventDefault();
             $(this).next('ul').toggle();
             });
-        $('body').delegate('li','click',function(u){
+        $('body').delegate('h3','click',function(u){
             u.preventDefault();
             $(this).next('ul').toggle();
             });
