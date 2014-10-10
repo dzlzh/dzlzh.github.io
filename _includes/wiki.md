@@ -1,79 +1,18 @@
 
 <div class="wiki">
-    <h2>Javascript</h2>
+    <h2>Programming</h2>
     <ul class="hide">
-        <li><a href="http://jqfundamentals.com/book/index.html">jQuery Fundamentals</a> - jQuery 入门教程。</li>
-        <li><a href="http://www.cn-cuckoo.com/deconstructed/index.html">JavaScript库 代码解构</a> - 将JavaScript流行框架源代码条分缕析展现出来</li>
-        <li><a href="http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html" title="汤姆大叔的深入理解Javascript系列">深入理解Javascript系列</a></li>
-        <li><a href="http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html" title="&lt;Script&gt;的defer和async的区别">&lt;Script&gt;的defer和async的区别</a></li>
-        <li><a href="http://coolshell.cn/articles/6441.html" title="Javascript面向对象基础">Javascript面向对象基础</a></li>
-        <li><a href="http://github.com/addyosmani/backbone-fundamentals" title="Backbone.js基础介绍">Backbone.js基础</a></li>
-        <li><a href="http://unixpapa.com/js/key.html">JavaScript Madness: Keyboard Events</a></li>
-        <li><a href="http://dailyjs.com/tags.html#frameworks">Let's Make Frameworks</a></li>
-        <li>国内公司JS框架：<a href="http://kissyui.com/">Kissy - Taobao</a> | <a href="http://arale.alipay.net/">Arale - Alipay</a> | <a href="http://tangram.baidu.com/">Tangram - Baidu</a></li>
-        <li><a href="http://js1k.com/">JS1K, 1k Javascript contest</a></li>
-        <li><a href="http://www.json.org/">JSON Home Page</a></li>
-        <li><a href="http://code.google.com/p/molokoloco-coding-project/wiki/JavascriptBase">NB JS Wiki(CSS、PHP、jQuery、Linux)</a></li>
-        <li><a href="http://birdshome.cnblogs.com/archive/2006/05/28/IE_MemoryLeak.html">理解并解决IE的内存泄漏方式</a> <a href="http://birdshome.cnblogs.com/archive/2006/06/01/ClosureReferences.html">2</a> <a href="http://birdshome.cnblogs.com/archive/2006/06/17/Cross_Page_Leaks.html">3</a> <a href="http://birdshome.cnblogs.com/archive/2006/06/30/Pseudo_Leaks.html">4</a></li>
-        <li><a href="http://msdn.microsoft.com/en-us/library/bb250448.aspx">Understanding and Solving Internet Explorer Leak Patterns</a></li>
-        <li><a href="http://www.cnblogs.com/rubylouvre/archive/2010/01/05/1639541.html" title="Javscript Bind函数">Javscript Bind函数</a></li>
-        <li><a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/" title="Javscript设计模式">Javscript设计模式</a></li>
-        <li>JSON工具：</li>
-        <ul>
-            <li><a href="http://www.jsonlint.com/">JSONLint</a> - The JSON Validator</li>
-            <li><a href="http://undefined.org/python/#simplejson">SimpleJSON</a> - Python Stuff</li>
-            <li><a href="http://jsonformatter.curiousconcept.com/">JSON Formatter (&amp; Validator!)</a></li>
-            <li><a href="http://www.raboof.com/Projects/TidyJson/">Tidy JSON - JSON Pretty Printer/Colorer</a> - C#(.NET)</li>
-            <li><a href="http://www.cerny-online.com/cerny.js/demos/json-pretty-printing">Cerny.js - JSON Pretty Printing Demo</a></li>
-            <li><a href="http://github.com/nicksieger/jsonpretty">jsonpretty(ruby)</a></li>
-        </ul>
-        <li>Vim Json：</li>
-        <ul>
-            <li><a href="http://lumberjaph.net/perl/2009/02/17/tidify-a-json-in-vim.html">tidify a json in Vim</a></li>
-            <li><a href="http://www.vim.org/scripts/script.php?script_id=1945">JSON.vim</a> - syntax</li>
-            <li><a href="http://visibletrap.blogspot.com/2010/05/vim-how-to-format-and-syntax-highlight.html">VIM - How to format and syntax highlight JSON file</a></li>
-            <li><a href="http://bradmontgomery.blogspot.com/2010/01/add-json-syntax-highlighting-in-vim-on.html">Add JSON syntax highlighting in Vim on OS X</a></li>
-        </ul>
-        <li>JSONP：</li>
-        <ul>
-            <li><a href="http://www.ibm.com/developerworks/cn/web/wa-aj-jsonp1/index.html">使用 JSONP 实现跨域通信，第 1 部分: 结合 JSONP 和 jQuery 快速构建强大的 mashup</a> <a href="http://www.ibm.com/developerworks/cn/web/wa-aj-jsonp2/index.html">第 2 部分: 使用 JSONP、jQuery 和 Yahoo! 查询语言构建 mashup</a></li>
-            <li><a href="http://www.cn-cuckoo.com/2008/09/13/the-origin-of-jsonp-262.html">JSONP的起源</a></li>
-            <li><a href="http://www.ibm.com/developerworks/cn/xml/x-mashups.html">Mashups：Web 应用程序新成员</a></li>
-        </ul>
-        <li>Javascript闭包：</li>
-        <ul>
-            <li><a href="http://zh.wikipedia.org/zh-cn/%E9%97%AD%E5%8C%85_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6)">闭包 (计算机科学)</a></li>
-            <li><a href="http://jibbering.com/faq/notes/closures/">Javascript Closures</a></li>
-            <li><a href="http://roshanca.com/?p=153">什么是闭包</a></li>
-            <li><a href="http://www.jibbering.com/faq/faq_notes/closures.html">Javascript Closures</a> <a href="http://www.cn-cuckoo.com/2007/08/01/understand-javascript-closures-72.html">中文</a> <a href="http://www.aspxhome.com/examples/javascript/program/483628/javascriptclosures.html">2</a></li>
-            <li><a href="http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html">学习Javascript闭包（Closure）</a></li>
-            <li><a href="http://www.mikkolee.com/81">作用域链 词法作用域 与 闭包（一）</a> <a href="http://www.mikkolee.com/84">（二）</a></li>
-        </ul>
-        <li>Javascript工具：</li>
-        <ul>
-            <li><a href="http://www.jslint.com/">JSLint</a></li>
-            <li><a href="http://javascriptlint.com/">JavaScript Lint</a></li>
-            <li><a href="http://github.com/rainux/jslint.vim">Fork of hallettj/jslint.vim</a></li>
-            <li><a href="http://varnow.org/?p=174">Google Closure Compiler压缩优化规则初探</a></li>
-            <li><a href="http://www.phpblog.cn/archives/242">使用Google 的Closure Compiler来压缩javascript</a></li>
-            <li><a href="http://www.cnblogs.com/JeffreyZhao/archive/2009/12/09/ikvm-google-closure-compiler.html">在项目中使用Google Closure Compiler</a></li>
-            <li><a href="http://hikejun.com/blog/?p=476&amp;cpage=1">Mac下用Closure compiler</a></li>
-            <li><a href="http://ued.sohu.com/article/611">JS 库浅析之 Google Closure</a></li>
-            <li><a href="http://www.pushiming.com/blog/2010/12/advanced-optimization-in-closure-compiler-and-more/">Closure Compiler 高级模式及更多思考</a></li>
-            <li><a href="http://www.slideshare.net/lifesinger/closure-compiler-vs-yuicompressor">Closure Compiler vs YUICompressor</a></li>
-            <li><a href="http://www.minifyjs.com/">Minify JS</a></li>
-            <li><a href="http://docs.jquery.com/QUnit">QUnit</a> <a href="http://github.com/jquery/qunit">@github</a></li>
-            <li>JsBeautify：<a href="http://jsbeautifier.org/">Online Javascript jsbeautifier</a> <a href="http://github.com/einars/js-beautify">github</a>, <a href="http://www.vim.org/scripts/script.php?script_id=2727">vimscript</a></li>
-            <li><a href="https://code.google.com/p/jsbeautifier/">js beautifier</a> - plugin for Chrome</li>
-        </ul>
-        <li>NodeJS：</li>
-        <ul>
-            <li><a href="http://nodejs.org/">nodeJS</a> - 服务器端 JavaScript 编程</li>
-            <li><a href="http://simonwillison.net/2009/Nov/23/node/">Node.js is genuinely exciting</a></li>
-            <li><a href="http://blog.csdn.net/fuadam/archive/2010/03/15/5380178.aspx">在cygwin环境下编译node.js</a></li>
-            <li><a href="http://github.com/ry/node_chat">node char</a> - 用 nodeJS 写的聊天室</li>
-            <li><a href="https://no.de/">Joyent Node</a> | <a href="http://mattn.no.de/">mattn.no.de</a></li>
-        </ul>
+
+- [PHP](/D-ZL/D_ZL/wiki/PHP)
+ - [PHP手册](http://php.net/manual/zh/)
+ - [PHP编码标准](http://framework.zend.com/manual/1.12/zh/coding-standard.coding-style.html)
+- [HTML/CSS]() & [HTML5](/D-ZL/D_ZL/wiki/HTML5)
+- [javascript](/D-ZL/D_ZL/wiki/javascript) & [jQuery]()
+- [C#]()
+- [.net]()
+- [C++]()
+- [C]()
+ 
     </ul>
 
     <h2>HTML &amp; CSS</h2>
