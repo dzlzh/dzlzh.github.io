@@ -188,8 +188,8 @@ $(document).ready(function(){
             $(this).next('ul').toggle();
             });
         });
-        $('body').delegate('li','click',function(e){
-            e.preventDefault();
+        $('body').delegate('li','click',function(u){
+            u.preventDefault();
             $(this).next('ul').toggle();
             });
         });
