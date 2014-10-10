@@ -187,7 +187,7 @@ $(document).ready(function(){
             e.preventDefault();
             $(this).next('ul').toggle();
             });
-        $('body').delegate('h3','click',function(u){
+        $('body').delegate('li','click',function(u){
             u.preventDefault();
             $(this).next('ul').toggle();
             });
