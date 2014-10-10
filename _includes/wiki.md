@@ -1,5 +1,5 @@
 
-<div class="artical-list">
+<div style="margin:0 auto; width:70%" class="wiki">
 <h2>Programming</h2>
 <ul class="hide">
 <li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/PHP">PHP</a>
