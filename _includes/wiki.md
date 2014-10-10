@@ -187,10 +187,10 @@ $(document).ready(function(){
             e.preventDefault();
             $(this).next('ul').toggle();
             });
-        });
         $('body').delegate('li','click',function(u){
             u.preventDefault();
             $(this).next('ul').toggle();
             });
         });
+   
 </script>
