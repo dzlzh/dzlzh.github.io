@@ -102,8 +102,6 @@
 <li><a class="external" target="_blank"href="http://tu.mindpin.com/">Mindpin思维导图</a></li>
 <li><a class="external" target="_blank"href="https://raysnote.com/">简单优雅的笔记工具</a></li>
 <li><a class="external" target="_blank"href="https://pomotodo.com/">番茄土豆时间管理</a></li>
-<li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/Google%E8%AE%BF%E9%97%AE%E6%96%B9%E6%B3%95">Google访问方法</a></li>
-<li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/%E8%8E%B7%E5%8F%96%E6%9C%80%E6%96%B0Google%E5%8F%AF%E7%94%A8IP%E6%96%B9%E6%B3%95(for%20hosts)">获取最新Google可用IP方法(for hosts)</a></li>
 <li><a class="external" target="_blank"href="http://jekyllcn.com/">Jekyll</a></li>
 <li><a class="external" target="_blank"href="http://www.voidtools.com/">Everything</a></li>
 </ul>
@@ -137,6 +135,7 @@
 辅助网站
 
 <ul >
+<li><a class="external" target="_blank"href="http://www.openervpn.in/">OpenerVPN - 『开门』网络加速</a></li>
 <li><a class="external" target="_blank"href="https://en.gravatar.com/">全国通用头像</a></li>
 <li><a class="external" target="_blank"href="http://www.codecademy.com/zh/dashboard">codecademy</a></li>
 <li><a class="external" target="_blank"href="http://codefights.com">codefights</a></li>
