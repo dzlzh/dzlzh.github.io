@@ -332,7 +332,7 @@ Google的高亮插件使用也比较方便，只需要在`<pre>`的标签上加�
 ##结语
 如果你跟着这篇不那么详尽的教程，成功搭建了自己的博客，恭喜你！剩下的就是保持热情的去写自己的文章吧。
 
-> 转载与BeiYuu的[使用Github Pages建独立博客](http://beiyuu.com/github-pages/)
+> 转载与BeiYuu的[使用Github Pages建独立博客][zz]
 
 [BeiYuu]:    http://beiyuu.com  "BeiYuu"
 [Github]:   http://github.com "Github"
@@ -363,3 +363,4 @@ Google的高亮插件使用也比较方便，只需要在`<pre>`的标签上加�
 [17]: http://jekyllbootstrap.com/
 [18]: http://chxt6896.github.com/blog/2012/02/13/blog-jekyll-native.html
 [a-record]: https://help.github.com/articles/my-custom-domain-isn-t-working
+[zz]:(http://beiyuu.com/github-pages/)
