@@ -3,7 +3,10 @@ layout: post
 title: 银行管理系统（C/S）
 category: project
 description: 这是一个渣成翔一样的代码
----
+--- 
+
+银行管理系统（C/S）
+-----------------
 
 > 这是一个渣成翔一样的代码
 
