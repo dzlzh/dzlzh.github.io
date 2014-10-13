@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 酒店管理系统（B/S）
+title: 新闻管理系统（B/S）
 category: project
 description:  这还是一个渣成翔一样的代码，(￣.￣)  而且这也是个半成品。
 --- 
