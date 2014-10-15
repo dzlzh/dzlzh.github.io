@@ -53,7 +53,6 @@
 
 <ul >
 <li><a class="external" target="_blank"href="https://coding.net/home.html">coding让开发更简单</a></li>
-<li><a class="external" target="_blank"href="https://tower.im/">tower简单，好用的团队协作工具</a></li>
 <li><a class="external" target="_blank"href="https://gitcafe.com/">GitCafe</a></li>
 <li><a class="external" target="_blank"href="https://git.oschina.net/">代码托管-开源中国社区</a></li>
 <li><a class="external" target="_blank"href="https://gitlab.com">GitLab</a></li>
@@ -87,23 +86,6 @@
 <li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/Vim%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4">Vim基本命令</a></li>
 </ul>
 </li>
-<li><a class="external" target="_blank"href="http://dcloud.io/">HBuilder 飞一样的编码</a></li>
-<li><a class="external" target="_blank"href="http://www.jetbrains.com/webstorm/">WebStorm</a></li>
-<li><a class="external" target="_blank"href="http://www.appinn.com/zen-coding/">Zen Coding &ndash; 超快地写网页代码</a></li>
-</ul>
-</li>
-<li>
-辅助工具
-
-<ul>
-<li><a class="external" target="_blank"href="http://www.miaodeli.com/lambda/">λ-VIEW</a></li>
-<li><a class="external" target="_blank"href="http://www.xmind.net/">XMind</a></li>
-<li><a class="external" target="_blank"href="http://www.taguage.com/">思维简图</a></li>
-<li><a class="external" target="_blank"href="http://tu.mindpin.com/">Mindpin思维导图</a></li>
-<li><a class="external" target="_blank"href="https://raysnote.com/">简单优雅的笔记工具</a></li>
-<li><a class="external" target="_blank"href="https://pomotodo.com/">番茄土豆时间管理</a></li>
-<li><a class="external" target="_blank"href="http://jekyllcn.com/">Jekyll</a></li>
-<li><a class="external" target="_blank"href="http://www.voidtools.com/">Everything</a></li>
 </ul>
 </li>
 </ul>
@@ -119,34 +101,19 @@
 <li><a class="external" target="_blank"href="http://segmentfault.com/">SegmentFault</a></li>
 <li><a class="external" target="_blank"href="http://stackoverflow.com/">Stack Overflow</a></li>
 <li><a class="external" target="_blank"href="http://www.oschina.net/">开源中国社区</a></li>
+<li><a class="external" target="_blank"href="http://www.php100.com/">PHP100</a></li>
 <li><a class="external" target="_blank"href="http://www.freebuf.com/">黑客与极客</a></li>
+<li><a class="external" target="_blank"href="http://linux.chinaunix.net/">Linux时代</a></li>
 </ul>
 </li>
 <li>域名注册
 
 <ul >
-<li><a class="external" target="_blank"href="http://www.dot.tk/zh/index.html">TK域名</a></li>
-<li><a class="external" target="_blank"href="http://www.point.ml/">ML域名</a></li>
 <li><a class="external" target="_blank"href="http://www.freenom.com/">Freenom <em>.TK</em> <em>.CF</em> <em>.GA</em> <em>.ML</em></a></li>
 <li><a class="external" target="_blank"href="https://www.dnspod.cn/">DNSPod</a></li>
 </ul>
 </li>
-<li>
-辅助网站
 
-<ul >
-<li><a class="external" target="_blank"href="http://www.openervpn.in/">OpenerVPN - 『开门』网络加速</a></li>
-<li><a class="external" target="_blank"href="http://map.ipviking.com/">在线黑客攻击可视化地图</a></li>
-<li><a class="external" target="_blank"href="https://en.gravatar.com/">全国通用头像</a></li>
-<li><a class="external" target="_blank"href="http://www.codecademy.com/zh/dashboard">codecademy</a></li>
-<li><a class="external" target="_blank"href="http://codefights.com">codefights</a></li>
-<li><a class="external" target="_blank"href="http://www.catb.org/esr/faqs/hacker-howto.html">How To Become A Hacker</a></li>
-<li><a class="external" target="_blank"href="http://www.freehao123.com/">免费资源部落</a></li>
-<li><a class="external" target="_blank"href="http://tool.php100.com/">程序员工具箱</a></li>
-<li><a class="external" target="_blank"href="http://tool.oschina.net/">在线工具</a></li>
-<li><a class="external" target="_blank"href="http://www.appinn.com/">小众软件</a></li>
-</ul>
-</li>
 <li>
 VPN
 
@@ -169,6 +136,23 @@ Blog
 <ul class="hide">
 <li><a class="external" target="_blank"href="http://www.wooyun.org">WooYun.org | 自由平等开放的漏洞报告平台</a></li>
 </ul>
+
+<h2>其它</h2>
+
+<ul >
+<li><a class="external" target="_blank"href="http://www.openervpn.in/">OpenerVPN - 『开门』网络加速</a></li>
+<li><a class="external" target="_blank"href="http://map.ipviking.com/">在线黑客攻击可视化地图</a></li>
+<li><a class="external" target="_blank"href="https://en.gravatar.com/">全国通用头像</a></li>
+<li><a class="external" target="_blank"href="http://www.codecademy.com/zh/dashboard">codecademy</a></li>
+<li><a class="external" target="_blank"href="http://codefights.com">codefights</a></li>
+<li><a class="external" target="_blank"href="http://www.catb.org/esr/faqs/hacker-howto.html">How To Become A Hacker</a></li>
+<li><a class="external" target="_blank"href="http://www.freehao123.com/">免费资源部落</a></li>
+<li><a class="external" target="_blank"href="http://www.appinn.com/">小众软件</a></li>
+<li><a class="external" target="_blank"href="http://www.miaodeli.com/lambda/">λ-VIEW</a></li>
+<li><a class="external" target="_blank"href="http://jekyllcn.com/">Jekyll</a></li>
+<li><a class="external" target="_blank"href="http://www.voidtools.com/">Everything</a></li>
+</ul>
+
 
 </div>
 <script type="text/javascript">
