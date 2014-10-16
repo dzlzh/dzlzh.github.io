@@ -24,8 +24,7 @@
 
 <h2>操作系统</h2>
 <ul class="hide">
-<li>Linux
-</li>
+<li>Linux</li>
 </ul>
 
 <h2>开发工具</h2>
