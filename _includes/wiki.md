@@ -25,9 +25,6 @@
 <h2>操作系统</h2>
 <ul class="hide">
 <li>Linux
-<ul >
-<li><a class="external" target="_blank"href="http://linux.chinaunix.net/">Linux时代</a></li>
-</ul>
 </li>
 </ul>
 
@@ -38,7 +35,6 @@
 
 <ul>
 <li><a class="external" target="_blank"href="http://tortoisesvn.net/">TortoiseSVN</a></li>
-<li><a class="external" target="_blank"href="https://github.com/">Github</a></li>
 <li>
 <a class="external" target="_blank"href="http://git-scm.com/">Git</a>
 
@@ -52,6 +48,7 @@
 代码托管平台
 
 <ul >
+<li><a class="external" target="_blank"href="https://github.com/">Github</a></li>
 <li><a class="external" target="_blank"href="https://coding.net/home.html">coding让开发更简单</a></li>
 <li><a class="external" target="_blank"href="https://gitcafe.com/">GitCafe</a></li>
 <li><a class="external" target="_blank"href="https://git.oschina.net/">代码托管-开源中国社区</a></li>
