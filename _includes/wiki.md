@@ -8,7 +8,8 @@
 <li><a class="external" target="_blank"href="http://framework.zend.com/manual/1.12/zh/coding-standard.coding-style.html">PHP编码标准</a></li>
 </ul>
 </li>
-<li><a class="external" target="_blank">HTML/CSS</a> & <a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/HTML5">HTML5</a></li>
+<li><a class="external" target="_blank">HTML</a> & <a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/HTML5">HTML5</a></li>
+<li><a class="external" target="_blank">CSS</a> & <a class="external" target="_blank">CSS3</a></li>
 <li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/javascript">javascript</a> & <a class="external" target="_blank">jQuery</a></li>
 <li><a class="external" target="_blank">C#</a></li>
 <li><a class="external" target="_blank">.net</a></li>
