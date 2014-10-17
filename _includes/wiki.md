@@ -65,6 +65,7 @@
 <li><a class="external" target="_blank"href="http://sae.sina.com.cn/">Sina App Engine</a></li>
 <li><a class="external" target="_blank"href="http://www.aliyun.com/">阿里云</a></li>
 <li><a class="external" target="_blank"href="http://developer.baidu.com/">百度开放云</a></li>
+<li><a class="external" target="_blank"href="http://www.mopaas.com/">MoPaaS</a></li>
 <li><a class="external" target="_blank"href="https://devcenter.heroku.com">Heroku Dev Center</a></li>
 <li><a class="external" target="_blank"href="http://aws.amazon.com/cn/">Amazon EC2</a></li>
 <li><a class="external" target="_blank"href="https://www.linode.com/">Linode</a></li>
