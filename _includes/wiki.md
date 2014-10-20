@@ -128,6 +128,13 @@ Blog
 <li><a class="external" target="_blank"href="http://beiyuu.com/">BeiYuu</a></li>
 </ul>
 </li>
+    <li>
+    暗网
+    <ul >
+        <li><a class="external" target="_blank"href="https://www.torproject.org/">Tor</a></li>
+        <li><a class="external" target="_blank"href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a></li>
+    </ul>
+    </li>
 </ul>
 
 <h2>安全</h2>
