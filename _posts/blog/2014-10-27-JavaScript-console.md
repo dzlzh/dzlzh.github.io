@@ -22,11 +22,11 @@ console.log("%s","D-ZL");                           //D-ZL
 console.log("%cD-ZL","font-size:20px;color:red;");  //D-ZL(red)
 ```
 
-> %s      字符串
-> %d,%i   整数
-> %f      浮点数
-> %o      对象的链接
-> %c      CSS格式字符串
+> %s      字符串    
+> %d,%i   整数    
+> %f      浮点数    
+> %o      对象的链接    
+> %c      CSS格式字符串    
 
 ##console.table()
 
