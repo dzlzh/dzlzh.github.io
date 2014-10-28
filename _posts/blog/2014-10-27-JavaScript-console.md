@@ -7,13 +7,10 @@ category: blog
 
 ##console.log()，console.warn()，console.error()，console.info()，console.debug()
 
-`console.log()`用于在console窗口显示普通信息。
-
-`console.warn()`用于在console窗口显示警示信息。
-
-`console.error()`用于在console窗口显示错误信息。
-
-`console.info()`用于在console窗口显示提示类信息。
+`console.log()`用于在console窗口显示普通信息。    
+`console.warn()`用于在console窗口显示警示信息。    
+`console.error()`用于在console窗口显示错误信息。    
+`console.info()`用于在console窗口显示提示类信息。    
 
 
 参数可以是普通字符串、格式字符串
@@ -93,7 +90,7 @@ console.groupEnd();
 
 ##参考链接
 
-[by 阮一峰 console对象][1]
+[by 阮一峰 console对象][1]    
 [刘哇勇的部落格 Chrome 控制台不完全指南][2]
 
 [1]:http://javascript.ruanyifeng.com/tool/console.html#toc7
