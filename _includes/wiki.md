@@ -73,108 +73,110 @@
 <li><a class="external" target="_blank"href="http://www.sdk.cn/">SDK</a></li>
 </ul>
 </li>
-<li>
+    <li>
 编辑器(IDE/Editor)
 
-<ul>
-<li>
-<a class="external" target="_blank"href="http://www.vim.org/">Vim</a>
+    <ul>
+    <li>
+    <a class="external" target="_blank"href="http://www.vim.org/">Vim</a>
 
-<ul>
-<li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/Vim%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4">Vim基本命令</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+    <ul>
+    <li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/Vim%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4">Vim基本命令</a></li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
 
-<h2>WEB</h2>
+    <h2>WEB</h2>
 
-<ul class="hide">
-<li>
-社区论坛
+    <ul class="hide">
+    <li>
+    社区论坛
 
-<ul >
-<li><a class="external" target="_blank"href="http://www.phpchina.com/">PHPChina开源社区门户</a></li>
-<li><a class="external" target="_blank"href="http://segmentfault.com/">SegmentFault</a></li>
-<li><a class="external" target="_blank"href="http://stackoverflow.com/">Stack Overflow</a></li>
-<li><a class="external" target="_blank"href="http://www.oschina.net/">开源中国社区</a></li>
-<li><a class="external" target="_blank"href="http://www.php100.com/">PHP100</a></li>
-<li><a class="external" target="_blank"href="http://www.freebuf.com/">黑客与极客</a></li>
-<li><a class="external" target="_blank"href="http://linux.chinaunix.net/">Linux时代</a></li>
-</ul>
-</li>
-<li>域名注册
+    <ul >
+    <li><a class="external" target="_blank"href="http://www.phpchina.com/">PHPChina开源社区门户</a></li>
+    <li><a class="external" target="_blank"href="http://segmentfault.com/">SegmentFault</a></li>
+    <li><a class="external" target="_blank"href="http://stackoverflow.com/">Stack Overflow</a></li>
+    <li><a class="external" target="_blank"href="http://www.oschina.net/">开源中国社区</a></li>
+    <li><a class="external" target="_blank"href="http://www.php100.com/">PHP100</a></li>
+    <li><a class="external" target="_blank"href="http://www.freebuf.com/">黑客与极客</a></li>
+    <li><a class="external" target="_blank"href="http://linux.chinaunix.net/">Linux时代</a></li>
+    </ul>
+    </li>
+    <li>域名注册
 
-<ul >
-<li><a class="external" target="_blank"href="http://www.freenom.com/">Freenom <em>.TK</em> <em>.CF</em> <em>.GA</em> <em>.ML</em></a></li>
-<li><a class="external" target="_blank"href="https://www.dnspod.cn/">DNSPod</a></li>
-</ul>
-</li>
+    <ul >
+    <li><a class="external" target="_blank"href="http://www.freenom.com/">Freenom <em>.TK</em> <em>.CF</em> <em>.GA</em> <em>.ML</em></a></li>
+    <li><a class="external" target="_blank"href="https://www.dnspod.cn/">DNSPod</a></li>
+    </ul>
+    </li>
 
-<li>
-VPN
+    <li>
+    VPN
 
-<ul >
-<li><a class="external" target="_blank"href="http://www.qjvpn.net/">旗舰VPN</a></li>
-<li><a class="external" target="_blank"href="http://www.davpn.com/">人人VPN</a></li>
-</ul>
-</li>
-<li>
-Blog
+    <ul >
+    <li><a class="external" target="_blank"href="https://www.softether.org/">SOFTETHER VPN</a></li>
+    <li><a class="external" target="_blank"href="http://www.qjvpn.net/">旗舰VPN</a></li>
+    <li><a class="external" target="_blank"href="http://www.davpn.com/">人人VPN</a></li>
+    </ul>
+    </li>
+    <li>
+    Blog
 
-<ul >
-<li><a class="external" target="_blank"href="http://hotoo.me/">闲耘&trade;</a></li>
-<li><a class="external" target="_blank"href="http://beiyuu.com/">BeiYuu</a></li>
-</ul>
-</li>
+    <ul >
+    <li><a class="external" target="_blank"href="http://hotoo.me/">闲耘&trade;</a></li>
+    <li><a class="external" target="_blank"href="http://beiyuu.com/">BeiYuu</a></li>
+    </ul>
+    </li>
     <li>
     暗网
     <ul >
-        <li><a class="external" target="_blank"href="https://www.torproject.org/">Tor</a></li>
-        <li><a class="external" target="_blank"href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a></li>
+    <li><a class="external" target="_blank"href="https://www.torproject.org/">Tor</a></li>
+    <li><a class="external" target="_blank"href="http://zqktlwi4fecvo6ri.onion/wiki/index.php/Main_Page">The Hidden Wiki</a></li>
     </ul>
     </li>
-</ul>
+    </ul>
 
-<h2>安全</h2>
-<ul class="hide">
-<li><a class="external" target="_blank"href="http://www.wooyun.org">WooYun.org | 自由平等开放的漏洞报告平台</a></li>
-</ul>
+    <h2>安全</h2>
+    <ul class="hide">
+    <li><a class="external" target="_blank"href="http://www.wooyun.org">WooYun.org | 自由平等开放的漏洞报告平台</a></li>
+    </ul>
 
-<h2>其它</h2>
+    <h2>其它</h2>
 
-<ul class="hide">
-<li><a class="external" target="_blank"href="http://www.openervpn.in/">OpenerVPN - 『开门』网络加速</a></li>
-<li><a class="external" target="_blank"href="http://map.ipviking.com/">在线黑客攻击可视化地图</a></li>
-<li><a class="external" target="_blank"href="https://en.gravatar.com/">全国通用头像</a></li>
-<li><a class="external" target="_blank"href="http://www.codecademy.com/zh/dashboard">codecademy</a></li>
-<li><a class="external" target="_blank"href="http://codefights.com">codefights</a></li>
-<li><a class="external" target="_blank"href="http://www.catb.org/esr/faqs/hacker-howto.html">How To Become A Hacker</a></li>
-<li><a class="external" target="_blank"href="http://www.freehao123.com/">免费资源部落</a></li>
-<li><a class="external" target="_blank"href="http://www.appinn.com/">小众软件</a></li>
-<li><a class="external" target="_blank"href="http://www.miaodeli.com/lambda/">λ-VIEW</a></li>
-<li><a class="external" target="_blank"href="http://jekyllcn.com/">Jekyll</a></li>
-<li><a class="external" target="_blank"href="http://www.voidtools.com/">Everything</a></li>
-</ul>
+    <ul class="hide">
+    <li><a class="external" target="_blank"href="http://www.network-science.de/ascii/">ASCII Generator</a></li>
+    <li><a class="external" target="_blank"href="http://www.openervpn.in/">OpenerVPN - 『开门』网络加速</a></li>
+    <li><a class="external" target="_blank"href="http://map.ipviking.com/">在线黑客攻击可视化地图</a></li>
+    <li><a class="external" target="_blank"href="https://en.gravatar.com/">全国通用头像</a></li>
+    <li><a class="external" target="_blank"href="http://www.codecademy.com/zh/dashboard">codecademy</a></li>
+    <li><a class="external" target="_blank"href="http://codefights.com">codefights</a></li>
+    <li><a class="external" target="_blank"href="http://www.catb.org/esr/faqs/hacker-howto.html">How To Become A Hacker</a></li>
+    <li><a class="external" target="_blank"href="http://www.freehao123.com/">免费资源部落</a></li>
+    <li><a class="external" target="_blank"href="http://www.appinn.com/">小众软件</a></li>
+    <li><a class="external" target="_blank"href="http://www.miaodeli.com/lambda/">λ-VIEW</a></li>
+    <li><a class="external" target="_blank"href="http://jekyllcn.com/">Jekyll</a></li>
+    <li><a class="external" target="_blank"href="http://www.voidtools.com/">Everything</a></li>
+    </ul>
 
 
-</div>
-<script type="text/javascript">
-$(document).ready(function(){
-        $('#content a').each(function(index,element){
-            var href = $(this).attr('href');
-            if(href.indexOf('#') == 0){
-            }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('beiyuu.com')>-1 ){
-            $(this).attr('target','_blank');
-            }else{
-            $(this).attr('target','_blank');
-            $(this).addClass('external');
-            }
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+            $('#content a').each(function(index,element){
+                var href = $(this).attr('href');
+                if(href.indexOf('#') == 0){
+                }else if ( href.indexOf('/') == 0 || href.toLowerCase().indexOf('beiyuu.com')>-1 ){
+                $(this).attr('target','_blank');
+                }else{
+                $(this).attr('target','_blank');
+                $(this).addClass('external');
+                }
+                });
+            $('body').delegate('h2','click',function(e){
+                e.preventDefault();
+                $(this).next('ul').toggle();
+                });
             });
-        $('body').delegate('h2','click',function(e){
-            e.preventDefault();
-            $(this).next('ul').toggle();
-            });
-        });
 </script>
