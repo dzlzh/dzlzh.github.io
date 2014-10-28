@@ -10,11 +10,9 @@
 </li>
 <li><a class="external" target="_blank">HTML</a> & <a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/HTML5">HTML5</a></li>
 <li><a class="external" target="_blank">CSS</a> & <a class="external" target="_blank">CSS3</a></li>
-<li><a class="external" target="_blank"href="https://github.com/D-ZL/D_ZL/wiki/javascript">javascript</a> & <a class="external" target="_blank">jQuery</a></li>
-<li><a class="external" target="_blank">C#</a></li>
-<li><a class="external" target="_blank">.net</a></li>
-<li><a class="external" target="_blank">C++</a></li>
-<li><a class="external" target="_blank">C</a></li>
+<li><a class="external" target="_blank"href="">javascript</a> & <a class="external" target="_blank">jQuery</a></li>
+<li><a class="external" target="_blank">C#</a> & <a class="external" target="_blank">.net</a></li>
+<li><a class="external" target="_blank">C++</a> & <a class="external" target="_blank">C</a></li>
 </ul>
 
 
@@ -147,6 +145,8 @@
 
     <ul class="hide">
     <li><a class="external" target="_blank"href="http://www.network-science.de/ascii/">ASCII Generator</a></li>
+    <li><a class="external" target="_blank"href="http://runjs.cn/">RunJS</a></li>
+    <li><a class="external" target="_blank"href="http://codepen.io/">CodePen</a></li>
     <li><a class="external" target="_blank"href="http://www.openervpn.in/">OpenerVPN - 『开门』网络加速</a></li>
     <li><a class="external" target="_blank"href="http://map.ipviking.com/">在线黑客攻击可视化地图</a></li>
     <li><a class="external" target="_blank"href="https://en.gravatar.com/">全国通用头像</a></li>
