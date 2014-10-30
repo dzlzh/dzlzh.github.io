@@ -53,6 +53,7 @@
 <li><a class="external" target="_blank"href="https://gitlab.com">GitLab</a></li>
 <li><a class="external" target="_blank"href="https://bitbucket.org/">BitBucket</a></li>
 <li><a class="external" target="_blank"href="https://sourceforge.net/">sourceforge</a></li>
+<li><a class="external" target="_blank"href="https://koding.com/">Koding | Say goodbye to your localhost and code in the cloud.</a></li>
 </ul>
 </li>
 <li>
