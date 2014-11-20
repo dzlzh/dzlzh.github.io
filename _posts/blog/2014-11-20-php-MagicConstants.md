@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP-魔术常量
+title: PHP: 魔术常量
 description: PHP 向它运行的任何脚本提供了大量的预定义常量。不过很多常量都是由不同的扩展库定义的，只有在加载了这些扩展库时才会出现，或者动态加载后，或者在编译时已经包括进去了。
 category: blog
 ---
@@ -29,5 +29,7 @@ __METHOD__
 __NAMESPACE__
 //当前命名空间的名称（区分大小写）。此常量是在编译时定义的（PHP 5.3.0 新增）。
 ```
+[PHP: 魔术常量][1]
 
+[1]:http://php.net/manual/zh/language.constants.predefined.php
 
