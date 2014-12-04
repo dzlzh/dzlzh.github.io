@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 魔术方法
+title: PHP-魔术方法
 description: __construct()， __destruct()， __call()， __callStatic()， __get()， __set()， __isset()， __unset()， __sleep()， __wakeup()， __toString()， __invoke()， __set_state()， __clone() 和 __debugInfo() 等方法在 PHP 中被称为"魔术方法"（Magic methods）。
 category: blog
 ---
@@ -61,7 +61,7 @@ public void __unset ( string $name )
 
 属性重载只能在对象中进行。在静态方法中，这些魔术方法将不会被调用。所以这些方法都不能被 声明为 static。从 PHP 5.3.0 起, 将这些魔术方法定义为 static 会产生一个警告。
 
-> Note: 因为 PHP 处理赋值运算的方式，__set() 的返回值将被忽略。类似的, 在下面这样的链式赋值中，__get() 不会被调用：$a = $obj->b = 8; 
+> Note: 因为 PHP 处理赋值运算的方式，`__set()` 的返回值将被忽略。类似的, 在下面这样的链式赋值中，`__get()` 不会被调用：$a = $obj->b = 8; 
 
 > Note: 在除 isset() 外的其它语言结构中无法使用重载的属性，这意味着当对一个重载的属性使用 empty() 时，重载魔术方法将不会被调用。为避开此限制，必须将重载属性赋值到本地变量再使用 empty()。
 
@@ -94,15 +94,27 @@ public string __toString ( void )
 `__invoke()`
 ------
 
+```
+mixed __invoke ([ $... ] )
+```
+
+当尝试以调用函数的方式调用一个对象时，`__invoke()` 方法会被自动调用。
+
+`__set_state() `
+------
+
+```
+static object __set_state ( array $properties )
+```
+
+自 PHP 5.1.0 起当调用 var_export() 导出类时，此静态 方法会被调用。
+
+本方法的唯一参数是一个数组，其中包含按 array('property' => value, ...) 格式排列的类属性。
 
 
 
-
-
-
-
-
-
+[PHP:魔法方法][1]
 
 
 [PHP]:    http://php.net/manual/zh/language.oop5.magic.php
+
