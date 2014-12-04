@@ -116,5 +116,5 @@ static object __set_state ( array $properties )
 [PHP:魔法方法][1]
 
 
-[PHP]:    http://php.net/manual/zh/language.oop5.magic.php
+[1]:    http://php.net/manual/zh/language.oop5.magic.php
 
