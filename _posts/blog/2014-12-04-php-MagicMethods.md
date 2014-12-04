@@ -33,9 +33,9 @@ public mixed __call ( string $name , array $arguments )
 public static mixed __callStatic ( string $name , array $arguments )
 ```
 
-在对象中调用一个不可访问方法时，__call() 会被调用。
+在对象中调用一个不可访问方法时，`__call()` 会被调用。
 
-用静态方式中调用一个不可访问方法时，__callStatic() 会被调用。
+用静态方式中调用一个不可访问方法时，`__callStatic()`会被调用。
 
 $name 参数是要调用的方法名称。$arguments 参数是一个枚举数组，包含着要传递给方法 $name 的参数。
 
@@ -49,15 +49,15 @@ public bool __isset ( string $name )
 public void __unset ( string $name )
 ```
 
-在给不可访问属性赋值时，__set() 会被调用。
+在给不可访问属性赋值时，`__set()` 会被调用。
 
-读取不可访问属性的值时，__get() 会被调用。
+读取不可访问属性的值时，`__get()` 会被调用。
 
-当对不可访问属性调用 isset() 或 empty() 时，__isset() 会被调用。
+当对不可访问属性调用 isset() 或 empty() 时，`__isset()` 会被调用。
 
-当对不可访问属性调用 unset() 时，__unset() 会被调用。
+当对不可访问属性调用 unset() 时，`__unset()` 会被调用。
 
-参数 $name 是指要操作的变量名称。__set() 方法的 $value 参数指定了 $name 变量的值。
+参数 $name 是指要操作的变量名称。`__set()` 方法的 $value 参数指定了 $name 变量的值。
 
 属性重载只能在对象中进行。在静态方法中，这些魔术方法将不会被调用。所以这些方法都不能被 声明为 static。从 PHP 5.3.0 起, 将这些魔术方法定义为 static 会产生一个警告。
 
@@ -65,33 +65,33 @@ public void __unset ( string $name )
 
 > Note: 在除 isset() 外的其它语言结构中无法使用重载的属性，这意味着当对一个重载的属性使用 empty() 时，重载魔术方法将不会被调用。为避开此限制，必须将重载属性赋值到本地变量再使用 empty()。
 
- __sleep()和__wakeup()
+`__sleep()`和`__wakeup()`
 ------
 
 ```
 public array __sleep ( void )
 void __wakeup ( void )
 ```
-serialize() 函数会检查类中是否存在一个魔术方法 __sleep()。如果存在，该方法会先被调用，然后才执行序列化操作。此功能可以用于清理对象，并返回一个包含对象中所有应被序列化的变量名称的数组。如果该方法未返回任何内容，则 NULL 被序列化，并产生一个 E_NOTICE 级别的错误。
+serialize() 函数会检查类中是否存在一个魔术方法 `__sleep()`。如果存在，该方法会先被调用，然后才执行序列化操作。此功能可以用于清理对象，并返回一个包含对象中所有应被序列化的变量名称的数组。如果该方法未返回任何内容，则 NULL 被序列化，并产生一个 E_NOTICE 级别的错误。
 
 > Note:__sleep() 不能返回父类的私有成员的名字。这样做会产生一个 E_NOTICE 级别的错误。可以用 Serializable 接口来替代。
 
-__sleep() 方法常用于提交未提交的数据，或类似的清理操作。同时，如果有一些很大的对象，但不需要全部保存，这个功能就很好用。
+`__sleep()` 方法常用于提交未提交的数据，或类似的清理操作。同时，如果有一些很大的对象，但不需要全部保存，这个功能就很好用。
 
-与之相反，unserialize() 会检查是否存在一个 __wakeup() 方法。如果存在，则会先调用 __wakeup 方法，预先准备对象需要的资源。
+与之相反，unserialize() 会检查是否存在一个 `__wakeup()` 方法。如果存在，则会先调用 `__wakeup` 方法，预先准备对象需要的资源。
 
-__wakeup() 经常用在反序列化操作中，例如重新建立数据库连接，或执行其它初始化操作。
+`__wakeup()` 经常用在反序列化操作中，例如重新建立数据库连接，或执行其它初始化操作。
 
-__toString()
+`__toString()`
 ------
 
 ```
 public string __toString ( void )
 ```
 
-__toString() 方法用于一个类被当成字符串时应怎样回应。例如 echo $obj; 应该显示些什么。此方法必须返回一个字符串，否则将发出一条 E_RECOVERABLE_ERROR 级别的致命错误。
+`__toString()` 方法用于一个类被当成字符串时应怎样回应。例如 echo $obj; 应该显示些什么。此方法必须返回一个字符串，否则将发出一条 E_RECOVERABLE_ERROR 级别的致命错误。
 
-__invoke()
+`__invoke()`
 ------
 
 
