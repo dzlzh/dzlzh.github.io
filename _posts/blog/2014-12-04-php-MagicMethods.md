@@ -5,7 +5,8 @@ description: __construct()， __destruct()， __call()， __callStatic()， __ge
 category: blog
 ---
 
-###构造函数
+构造函数
+------
 
 ```
 void __construct ([ mixed $args [, $... ]] )
@@ -15,7 +16,8 @@ PHP 5 允行开发者在一个类中定义一个方法作为构造函数。具�
 
 > Note: 如果子类中定义了构造函数则不会隐式调用其父类的构造函数。要执行父类的构造函数，需要在子类的构造函数中调用 parent::__construct()。如果子类没有定义构造函数则会如同一个普通的类方法一样从父类继承（假如没有被定义为 private 的话）。
 
-###析构函数
+析构函数
+------
 
 ```
 oid __destruct ( void )
@@ -23,7 +25,8 @@ oid __destruct ( void )
 
 PHP 5 引入了析构函数的概念，这类似于其它面向对象的语言，如 C++。析构函数会在到某个对象的所有引用都被删除或者当对象被显式销毁时执行。
 
-###方法重载
+方法重载
+------
 
 ```
 public mixed __call ( string $name , array $arguments )
@@ -36,7 +39,8 @@ public static mixed __callStatic ( string $name , array $arguments )
 
 $name 参数是要调用的方法名称。$arguments 参数是一个枚举数组，包含着要传递给方法 $name 的参数。
 
-###属性重载
+属性重载
+------
 
 ```
 public void __set ( string $name , mixed $value )
@@ -61,7 +65,8 @@ public void __unset ( string $name )
 
 > Note: 在除 isset() 外的其它语言结构中无法使用重载的属性，这意味着当对一个重载的属性使用 empty() 时，重载魔术方法将不会被调用。为避开此限制，必须将重载属性赋值到本地变量再使用 empty()。
 
-###__sleep() 和 __wakeup()
+__sleep() 和 __wakeup()
+------
 
 ```
 public array __sleep ( void )
@@ -77,7 +82,8 @@ __sleep() 方法常用于提交未提交的数据，或类似的清理操作。�
 
 __wakeup() 经常用在反序列化操作中，例如重新建立数据库连接，或执行其它初始化操作。
 
-###__toString()
+__toString()
+------
 
 ```
 public string __toString ( void )
@@ -85,8 +91,8 @@ public string __toString ( void )
 
 __toString() 方法用于一个类被当成字符串时应怎样回应。例如 echo $obj; 应该显示些什么。此方法必须返回一个字符串，否则将发出一条 E_RECOVERABLE_ERROR 级别的致命错误。
 
-###__invoke()
-
+__invoke()
+------
 
 
 
