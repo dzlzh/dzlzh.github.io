@@ -65,7 +65,7 @@ public void __unset ( string $name )
 
 > Note: 在除 isset() 外的其它语言结构中无法使用重载的属性，这意味着当对一个重载的属性使用 empty() 时，重载魔术方法将不会被调用。为避开此限制，必须将重载属性赋值到本地变量再使用 empty()。
 
-__sleep() 和 __wakeup()
+ __sleep()和__wakeup()
 ------
 
 ```
