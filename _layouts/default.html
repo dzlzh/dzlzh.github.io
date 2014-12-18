@@ -1,52 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
+<!--
     * Author:         d-zl
     -->
-    <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="author" content="d-zl" />
-    <meta name="renderer" content="webkit">
-    <meta name="description" content="d-zl's Blog" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-    <script>
+<meta charset="utf-8" />
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="author" content="d-zl" />
+<meta name="renderer" content="webkit">
+<meta name="description" content="d-zl's Blog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="/css/default.css" type="text/css" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
+<script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script>
 console.log("DDDDDDDDDDDDD                         ZZZZZZZZZZZZZZZZZZZLLLLLLLLLLL             \nD::::::::::::DDD                      Z:::::::::::::::::ZL:::::::::L             \nD:::::::::::::::DD                    Z:::::::::::::::::ZL:::::::::L             \nDDD:::::DDDDD:::::D                   Z:::ZZZZZZZZ:::::Z LL:::::::LL             \n  D:::::D    D:::::D                  ZZZZZ     Z:::::Z    L:::::L               \n  D:::::D     D:::::D                         Z:::::Z      L:::::L               \n  D:::::D     D:::::D                        Z:::::Z       L:::::L               \n  D:::::D     D:::::D ---------------       Z:::::Z        L:::::L               \n  D:::::D     D:::::D -:::::::::::::-      Z:::::Z         L:::::L               \n  D:::::D     D:::::D ---------------     Z:::::Z          L:::::L               \n  D:::::D     D:::::D                    Z:::::Z           L:::::L               \n  D:::::D    D:::::D                  ZZZ:::::Z     ZZZZZ  L:::::L         LLLLLL\nDDD:::::DDDDD:::::D                   Z::::::ZZZZZZZZ:::ZLL:::::::LLLLLLLLL:::::L\nD:::::::::::::::DD                    Z:::::::::::::::::ZL::::::::::::::::::::::L\nD::::::::::::DDD                      Z:::::::::::::::::ZL::::::::::::::::::::::L\nDDDDDDDDDDDDD                         ZZZZZZZZZZZZZZZZZZZLLLLLLLLLLLLLLLLLLLLLLLL");
 
-    </script>
+</script>
+<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js">
+</script>
+<script type='text/javascript'>
+$({
+property: 0
+}).animate({
+property: 100
+}, {
+duration: 3000,
+step: function() {
+var percentage = Math.round(this.property);
+
+$('#progress').css('width', percentage + "%");
+
+if (percentage == 100) {
+$("#progress").addClass("done"); //完成，隐藏进度条
+}
+}
+});
+</script>
+<style type="text/css">
+body{ margin:0; } #progress { height: 2px; 
+    background:#b91f1f;
+    transition:opacity 500ms linear;
+    -webkit-transition:opacity 500ms linear;
+
+}
+#progress.done { opacity:0 }
+</style>
 </head>
 <body>
-
-    <div class="home-menu">
-        <div class="home-icon-con">
-            <a class="home-menu-icon" href="/">D-ZL</a>
-            <a class="home-follow" href="#" title="Contact Me">+</a>
-        </div>
-        <div class="home-contact">
-            <a href="http://weibo.com/duanzhilei" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-            <a href="https://github.com/D-ZL" target="_blank" style="text-align:center;"><img src="/images/github.ico" alt="" width="25"/></a>
-            <a href="http://www.zhihu.com/people/d-z-l" target="_blank" style="text-align:right;"><img src="https://www.zhihu.com/favicon.ico" alt="" width="25"/></a>
-        </div>
+<div id="progress">
+</div>
+<div class="home-menu">
+    <div class="home-icon-con">
+        <a class="home-menu-icon" href="/">D-ZL</a>
+        <a class="home-follow" href="#" title="Contact Me">+</a>
     </div>
+    <div class="home-contact">
+        <a href="http://weibo.com/duanzhilei" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
+        <a href="https://github.com/D-ZL" target="_blank" style="text-align:center;"><img src="/images/github.ico" alt="" width="25"/></a>
+        <a href="http://www.zhihu.com/people/d-z-l" target="_blank" style="text-align:right;"><img src="https://www.zhihu.com/favicon.ico" alt="" width="25"/></a>
+    </div>
+</div>
 
-    {{ content }}
+{{ content }}
 
-    <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
+<script type="text/javascript">
+$(function(){
+        $('.home-follow').click(function(e){
+            e.preventDefault();
 
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
+            if($('.home-contact').is(':visible')){
+            $('.home-contact').slideUp(100);
+            }else{
+            $('.home-contact').slideDown(100);
+            }
             });
         })
-    </script>
+</script>
 </body>
 </html>
