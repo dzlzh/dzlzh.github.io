@@ -52,7 +52,7 @@ pre code{background-color:transparent;border:none;padding:0;word-wrap:normal;}
 pre ol{margin-left:25px;list-style-type:decimal;}
 
 /************layout style*****************/
-#content {width:1060px;margin:90px auto 60px;min-height:400px;height:auto !important;height:400px; }
+#content {width:1060px;margin:10% auto 60px;min-height:400px;height:auto !important;height:400px; }
 
 
 /****************entry style**************/
@@ -92,7 +92,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .project .aside{
     background-image:url('https://d233eq3e3p3cv0.cloudfront.net/max/1000/0*kTUZamBulGQZg1MW.jpeg')
 }
-.index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
+.index-content .section { margin-left:15%; padding-top:10%; padding-right:10%; ;}
 
 .index-content .artical-list { width:70%; margin:0 auto; }
 .index-content .artical-list li { margin-bottom:70px; }
