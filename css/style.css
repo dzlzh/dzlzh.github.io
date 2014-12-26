@@ -1464,7 +1464,8 @@ p {
   position: fixed;
   height: 50px;
   width: 100%;
-  background: #ededed;
+  //background: #ededed;
+  background: #ffe;
   padding: 17px 15px;
   padding-bottom: 0px;
   z-index: 1000;
