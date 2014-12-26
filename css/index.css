@@ -3,8 +3,8 @@
 body{
 	//margin: 0;
 //	padding: 0;
-	//background-color: #ededed;
-	background-color: #ffe;
+	background-color: #ededed;
+	//background-color: #ffe;
 //	overflow: hidden;
 }
 .button{
@@ -146,8 +146,8 @@ body{
 	width: 360px;
 	height: 360px;
 	//background-color: #f2dbb7;
-	//background-color: #ededed;
-	background-color: #ffe;
+	background-color: #ededed;
+	//background-color: #ffe;
 	border-radius: 50%;
 	box-shadow: 0px 0px 25px 5px rgba(1, 1, 1, 0.4);
 	transition: all 500ms;
