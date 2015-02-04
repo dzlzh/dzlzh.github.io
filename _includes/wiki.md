@@ -116,8 +116,6 @@
 
     <ul >
     <li><a class="external" target="_blank"href="https://www.softether.org/">SOFTETHER VPN</a></li>
-    <li><a class="external" target="_blank"href="http://www.qjvpn.net/">旗舰VPN</a></li>
-    <li><a class="external" target="_blank"href="http://www.davpn.com/">人人VPN</a></li>
     </ul>
     </li>
     <li>
