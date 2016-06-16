@@ -99,8 +99,8 @@ function detail(id){
     if(_G.post[id].body != undefined){
       $('#container').html(_G.post[id].body);
       $('title').html(_G.post[id].title);
-      // toggleDuoshuoComments('#container', id);
-      toggleDisqusComments(_G.post[id].title, id);
+      toggleDuoshuoComments('#container', id);
+      // toggleDisqusComments(_G.post[id].title, id);
       highlight();
       return;
     }
@@ -120,8 +120,8 @@ function detail(id){
             });
 
             $('title').html(data.title + " | " + _config['blog_name']);
-            // toggleDuoshuoComments('#container', id);
-            toggleDisqusComments(_G.post[id].title, id);
+            toggleDuoshuoComments('#container', id);
+            // toggleDisqusComments(_G.post[id].title, id);
             highlight();
         }
     });  
