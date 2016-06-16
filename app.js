@@ -80,6 +80,9 @@ function toggleDisqusComments(title, id){
    // this.page.url = window.location.href;
    // this.page.identifier = id;
    // }; 
+   var disqus_identifier = id;
+   var disqus_url = window.location.href;
+   var disqus_title = title;
    (function() {
     	// DON'T EDIT BELOW THIS LINE 
     	var d = document,
