@@ -75,12 +75,11 @@ function toggleDuoshuoComments(container, id){
 
 // 动态加载DISQUS评论框的函数
 function toggleDisqusComments(title, id){
-   // var disqus_config = function () { 
-       // this.page.title = title;
-       // this.page.url = window.location.href;
-       // this.page.identifier = id;
-   // }; 
-   (function() {
+    var disqus_config = function () { 
+       this.page.url = window.location.href;
+       this.page.identifier = id;
+    }; 
+    (function() {
     	// DON'T EDIT BELOW THIS LINE 
     	var d = document,
     		s = d.createElement('script');
