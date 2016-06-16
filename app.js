@@ -80,14 +80,15 @@ function toggleDisqusComments(title, id){
    this.page.url = window.location.href;
    this.page.identifier = id;
    }; 
-(function() {
-	// DON'T EDIT BELOW THIS LINE 
-	var d = document,
-		s = d.createElement('script');
-	s.src = '//dzlzh.disqus.com/embed.js';
-	s.setAttribute('data-timestamp', +new Date());
-	(d.head || d.body).appendChild(s);
-})();
+   (function() {
+    	// DON'T EDIT BELOW THIS LINE 
+    	var d = document,
+    		s = d.createElement('script');
+    	s.src = '//dzlzh.disqus.com/embed.js';
+    	s.setAttribute('data-timestamp', +new Date());
+    	(d.head || d.body).appendChild(s);
+    })();
+
 }
 
 function detail(id){
