@@ -23,3 +23,5 @@
 * [PHP 安全](https://dzlzh.github.io/#post/11)
 
 * [正则表达式小记](https://dzlzh.github.io/#post/12)
+
+* [Centos7 编译安装 Libmcrypt 库](https://dzlzh.github.io/#post/13)
