@@ -63,33 +63,6 @@ function highlight(){
   });
 }
 
-// 动态加载多说评论框的函数
-function toggleDuoshuoComments(container, id){
-    var el = document.createElement('div');
-    var url = window.location.href;
-    el.setAttribute('data-thread-key', id);
-    el.setAttribute('data-url', url);
-    DUOSHUO.EmbedThread(el);
-    jQuery(container).append(el);
-}
-
-// 动态加载DISQUS评论框的函数
-function toggleDisqusComments(title, id){
-    var disqus_config = function () { 
-       this.page.url = window.location.href;
-       this.page.identifier = id;
-    }; 
-    (function() {
-    	// DON'T EDIT BELOW THIS LINE 
-    	var d = document,
-    		s = d.createElement('script');
-    	s.src = '//dzlzh.disqus.com/embed.js';
-    	s.setAttribute('data-timestamp', +new Date());
-    	(d.head || d.body).appendChild(s);
-    })();
-
-}
-
 function detail(id){
     if(!window._G){
       window._G = {post: {}, postList: {}};
@@ -99,8 +72,6 @@ function detail(id){
     if(_G.post[id].body != undefined){
       $('#container').html(_G.post[id].body);
       $('title').html(_G.post[id].title);
-      toggleDuoshuoComments('#container', id);
-      // toggleDisqusComments(_G.post[id].title, id);
       highlight();
       return;
     }
@@ -120,8 +91,6 @@ function detail(id){
             });
 
             $('title').html(data.title + " | " + _config['blog_name']);
-            toggleDuoshuoComments('#container', id);
-            // toggleDisqusComments(_G.post[id].title, id);
             highlight();
         }
     });  
